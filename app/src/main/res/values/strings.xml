@@ -6,14 +6,23 @@
     <string name="conociendo">Conociendo la EPS</string>
     <string name="ubicando">Localizacion</string>
     <string name="navegando">Acceso a la web</string>
-    <string name="contactando">Tlf. de contacto: 973.702.700</string>
+    <string name="URL_udl">http://www.udl.cat</string>
+    <string name="telefono">Acceso al telefono</string>
+    <string name="contactando">Tlf. de contacto: 691.77.82.50</string>
+    <string name="telef">691778250</string>
+    <string name="sms">Enviar mensaje</string>
+
+
     <string name="Boto1">Por coord.</string>
     <string name="Boto2">Por direcc.</string>
     <string name="Boto3">Por URL</string>
     <string name="Boto4">Google</string>
     <string name="Boto5">Marcar</string>
     <string name="Boto6">Acceder Contactos</string>
-    <string name="telef">666666666</string>
+    <string name="Boto7">Llamar</string>
+    <string name="Boto8">SMS</string>
+    <string name="Boto9">E-mail</string>
+
 
     <string name="opcio1">Seleccionado Localizacion por coordenadas</string>
     <string name="opcio2">Seleccionado Localizacion por dirección</string>
@@ -21,6 +30,7 @@
     <string name="opcio4">Buscando en Google</string>
     <string name="opcio5">Marcando el Tlfn.</string>
     <string name="opcio6">Accediendo a contactos</string>
+    <string name="opcio7">Llamando al Tlfn.</string>
 
 
 </resources>
