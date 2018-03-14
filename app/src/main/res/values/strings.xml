@@ -11,6 +11,9 @@
     <string name="contactando">Tlf. de contacto: 691.77.82.50</string>
     <string name="telef">691778250</string>
     <string name="sms">Enviar mensaje</string>
+    <string name="destino_sms">Tlf. destino: 646888777</string>
+    <string name="destino_email">Email destinatario: sss@udl.cat</string>
+    <string name="Imagenes">Imagenes</string>
 
 
     <string name="Boto1">Por coord.</string>
@@ -20,8 +23,9 @@
     <string name="Boto5">Marcar</string>
     <string name="Boto6">Acceder Contactos</string>
     <string name="Boto7">Llamar</string>
-    <string name="Boto8">SMS</string>
-    <string name="Boto9">E-mail</string>
+    <string name="Boto8">Enviar SMS</string>
+    <string name="Boto9">Enviar E-mail</string>
+    <string name="Boto10">Acceder Galeria imágenes</string>
 
 
     <string name="opcio1">Seleccionado Localizacion por coordenadas</string>
@@ -31,6 +35,8 @@
     <string name="opcio5">Marcando el Tlfn.</string>
     <string name="opcio6">Accediendo a contactos</string>
     <string name="opcio7">Llamando al Tlfn.</string>
+    <string name="opcio8">Enviando un SMS</string>
+    <string name="opcio9">Enviando un e-mail</string>
 
 
 </resources>

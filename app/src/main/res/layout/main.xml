@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textStyle="bold|italic"
         android:text="@string/ubicando" />
 
     <LinearLayout
@@ -76,6 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textStyle="bold|italic"
         android:text="@string/telefono" />
 
     <LinearLayout
@@ -120,6 +122,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textStyle="bold|italic"
         android:text="@string/sms" />
 
     <LinearLayout
@@ -127,17 +130,56 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/destino_sms" />
+
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Boto8" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/destino_email" />
+
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Boto9" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:text="@string/Imagenes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Boto10" />
 
     </LinearLayout>
 

@@ -99,6 +99,16 @@ public class MainActivity extends Activity implements OnClickListener{
                 in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
                 startActivity(in);
                 break;
+            case R.id.button8:
+                Toast.makeText(this, getString(R.string.opcio8), Toast.LENGTH_LONG).show();
+                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
+                startActivity(in);
+                break;
+            case R.id.button9:
+                Toast.makeText(this, getString(R.string.opcio9), Toast.LENGTH_LONG).show();
+                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
+                startActivity(in);
+                break;
         }
 	}
 	
