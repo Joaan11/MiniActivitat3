@@ -23,6 +23,7 @@ public class MainActivity extends Activity implements OnClickListener{
     private final String udl = "http://www.udl.cat/";
 	private final String adressa = "Carrer de Jaume II, 69, Lleida";
 	private final String textoABuscar = "escuela politecnica superior";
+	private final String telefon = "+34691778250";
 	
 
 	@Override
@@ -73,7 +74,7 @@ public class MainActivity extends Activity implements OnClickListener{
                 startActivity(in);
                 break;
             case R.id.udl:
-                Toast.makeText(this, getString(R.string.opcio3), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, getString(R.string.opcio10), Toast.LENGTH_LONG).show();
                 in = new Intent(Intent.ACTION_VIEW, Uri.parse(udl));
                 startActivity(in);
                 break;
@@ -85,7 +86,7 @@ public class MainActivity extends Activity implements OnClickListener{
                 break;
             case R.id.button5:
                 Toast.makeText(this, getString(R.string.opcio5), Toast.LENGTH_LONG).show();
-                in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "@string/telef"));
+                in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + telefon));
                 startActivity(in);
                 break;
             case R.id.button6:
@@ -96,18 +97,24 @@ public class MainActivity extends Activity implements OnClickListener{
                 break;
             case R.id.button7:
                 Toast.makeText(this, getString(R.string.opcio7), Toast.LENGTH_LONG).show();
-                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
+                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+telefon));
                 startActivity(in);
                 break;
             case R.id.button8:
                 Toast.makeText(this, getString(R.string.opcio8), Toast.LENGTH_LONG).show();
-                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
+                String messagenumber = "691778250";
+                in = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("sms", messagenumber, null));
                 startActivity(in);
                 break;
             case R.id.button9:
                 Toast.makeText(this, getString(R.string.opcio9), Toast.LENGTH_LONG).show();
-                in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "@string/telef"));
-                startActivity(in);
+                in = new Intent(Intent.ACTION_SEND);
+                String email = "sss@gmail.com";
+                String subject = "demo";
+                in.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
+                in.putExtra(Intent.EXTRA_SUBJECT, subject);
+                in.setType("message/rfc822");
+                startActivity(Intent.createChooser(in, "Escoger un Email"));
                 break;
         }
 	}
