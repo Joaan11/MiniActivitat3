@@ -14,6 +14,7 @@
     <string name="destino_sms">Tlf. destino: 691.77.82.50</string>
     <string name="destino_email">Email destinatario: sss@udl.cat</string>
     <string name="Imagenes">Imagenes</string>
+    <string name="acceder_galeria">Acceder a Galeria</string>
 
 
     <string name="Boto1">Por coord.</string>
@@ -25,8 +26,8 @@
     <string name="Boto7">Llamar</string>
     <string name="Boto8">Enviar SMS</string>
     <string name="Boto9">Enviar E-mail</string>
-    <string name="Boto10">Acceder Galeria imágenes</string>
-
+    <string name="Boto10">Ver Galeria</string>
+    <string name="Boto11">Tomar Foto</string>
 
     <string name="opcio1">Seleccionado Localizacion por coordenadas</string>
     <string name="opcio2">Seleccionado Localizacion por dirección</string>
